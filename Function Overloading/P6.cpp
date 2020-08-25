@@ -24,7 +24,6 @@ void complex::read()
 
 void complex::print()
 {
-  cout<<"Enter the real and imaginaery part respectively: ";
   cout<<r<<"+"<<i;
 }
 
