@@ -7,7 +7,7 @@
 #include<conio.h>
 using namespace std;
 
-class Complex{
+class complex{
    int r,i;
    public:
      void read();
@@ -16,16 +16,16 @@ class Complex{
      friend complex add(complex s1, complex s2);
 };
 
-void Complex::read()
+void complex::read()
 {
   cout<<"Enter the real and imaginaery part respectively: ";
   cin>>r>>i;
 }
 
-void Complex::print()
+void complex::print()
 {
   cout<<"Enter the real and imaginaery part respectively: ";
-  cin>>r>>"+">>i;
+  cout<<r<<"+"<<i;
 }
 
 complex add(int a, complex s2)
@@ -47,7 +47,7 @@ complex add(complex s1, complex s2)
 int main()
 {
   int a=3;
-  Complex s1, s2, s3;
+  complex s1, s2, s3;
   s1.read();
     cout<<"\n s1: ";
     s1.print();
