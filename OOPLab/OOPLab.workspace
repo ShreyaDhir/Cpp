@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="OOPLab" Database="" Version="10000">
+  <Project Name="OOPLab" Path="OOPLab/OOPLab.project" Active="No"/>
+  <Project Name="C-StructurePractise" Path="C-StructurePractise/C-StructurePractise.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="OOPLab" ConfigName="Debug"/>
+      <Project Name="C-StructurePractise" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="OOPLab" ConfigName="Release"/>
+      <Project Name="C-StructurePractise" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <VirtualDirectory Name="C"/>
+</CodeLite_Workspace>
