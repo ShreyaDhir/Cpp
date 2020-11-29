@@ -7,7 +7,7 @@ int main()
   int num{};
   const int target {10};
 
-  cout<<"Enter the number to be entered: ";
+  cout<<"Enter the number: ";
   cin>>num;
 
   if(num >= target){

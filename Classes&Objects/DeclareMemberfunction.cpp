@@ -14,7 +14,7 @@ public:
 
   void getId()
   {
-    cout<<"Geej ID is "<<id<<endl;
+    cout<<"Geek ID is "<<id<<endl;
   }
 };
 
